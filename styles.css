@@ -1,0 +1,15 @@
+section {
+    display: flex;
+    gap: 5rem;
+}
+
+.section-content {
+    display: flex;
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .section-content {
+        display: block;
+    }
+}
